@@ -25,13 +25,12 @@ public class MoneyTransfersController {
     }
 
     public static MoneyTransfers buildMoneyTransferFirst() {
-	LocalDateTime date = 2017-10-06 ;
-	Expeditor from = "Nathalie", ;
+	LocalDateTime date = null;
+	Expeditor from =null ;
 	Receiver to = null;
 	Amount amount = null;
 	MoneyTransfer moneyTransfer = new MoneyTransfer(date, from, to, amount);
 	return null;
-	
 	
     }
 }
